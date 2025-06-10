@@ -1,26 +1,46 @@
-# 🧠 CancerPredict AI - Smart Cancer Scanning App
+# 🧠 AICancerScan - AI-Powered Cancer Prediction App
 
-## 📋 Overview  
-**CancerPredict AI** is a deep learning-based mobile app designed to assist in the early detection of **lung and breast cancer** from CT scan images. It provides intelligent insights using AI models, supports medical professionals in diagnosis, and enhances user interaction through a smart chatbot.
-
----
-
-## 🔍 Features
-
-- 🧬 **Cancer Prediction**: Detect presence of cancer in lung/breast CT scans using CNN-based image classification.
-- 🔥 **Heatmap Visualization**: Grad-CAM integration for model transparency and region highlighting.
-- 💬 **AI Chatbot**: For patient support, awareness, and application guidance.
-- 🔐 **User Authentication**: Secure login via phone number or Google Sign-In (powered by Firebase).
+## ⚡ About CancerDetect  
+**CancerDetect** is an intelligent medical app that predicts **lung** and **breast cancer** using deep learning on CT scan images. It highlights suspicious regions using **Grad-CAM**, allows patients to interact with a built-in **AI chatbot**, and ensures secure access with **Firebase Authentication**.
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Languages**: Python, Dart (Flutter)
-- **AI/ML**: TensorFlow, Keras, OpenCV
-- **Mobile**: Flutter SDK
-- **Backend**: Firebase Authentication & Storage
-- **Visualization**: Grad-CAM (heatmap generation)
+## 📸 Screenshots  
+<img src="https://github.com/NishantK04/AI-Cancer-Scan/blob/main/login.jpg" width="250"> <img src="https://github.com/NishantK04/AI-Cancer-Scan/blob/main/home.jpg" width="250"> <img src="https://github.com/NishantK04/AI-Cancer-Scan/blob/main/chatBot.jpg" width="250"> <img src="https://github.com/NishantK04/AI-Cancer-Scan/blob/main/breastcanceroption.jpg" width="250">  <img src="https://github.com/NishantK04/AI-Cancer-Scan/blob/main/result.jpg" width="250"> <img src="https://github.com/NishantK04/AI-Cancer-Scan/blob/main/gradcam.jpg" width="250">
 
 ---
 
+## 🔥 Key Features
+
+### 1️⃣ **AI-Powered Cancer Detection** 🧬📷  
+- Upload CT scan images of **lung** or **breast**  
+- Predicts whether cancer is **present or not** using trained CNN models  
+- Accurate and fast predictions within seconds
+
+### 2️⃣ **Grad-CAM Visualization** 🔍  
+- Highlights **where the model is focusing** on the image  
+- Generates heatmaps for better clinical understanding  
+- Helps doctors locate suspicious regions
+
+### 3️⃣ **Interactive Medical Chatbot** 🤖💬  
+✅ In-app AI chatbot for:  
+   - Cancer awareness  
+   - Follow-up guidance  
+   - App usage support  
+
+### 4️⃣ **Firebase Authentication** 🔐📲  
+✅ Secure login using:  
+   - 📧 Email & Password  (In Development)
+   - 🔒 Phone Number (OTP)  
+   - 🔗 Google Sign-In  
+✅ Ensures privacy and protection of sensitive medical data
+---
+
+## 🚀 Installation & Setup
+```sh
+# Clone the repository
+git clone https://github.com/yourusername/CancerDetect.git
+
+# Open the project in Android Studio
+
+# Replace with your Firebase `google-services.json` file in android/app/
